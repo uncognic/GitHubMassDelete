@@ -8,8 +8,11 @@ if not token:
 
 auth = Auth.Token(token)
 g = Github(auth=auth)
+username = g.get_user()
+allrepos = list(g.get_user().get_repos())
 
-repos = list(g.get_user().get_repos())
+repos = [r for r in allrepos if getattr(getattr(r, "owner", None), "login", None) == username.login]
+
 for repo in repos:
     flags = []
     if getattr(repo, "private", False):
