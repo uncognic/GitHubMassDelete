@@ -9,5 +9,15 @@ Simple Python script to delete GitHub repositories in bulk.
 5. Select repositories to delete
 6. Press delete repositories
 
+## Screenshots
+<p float="left">
+  <img src="./screenshots/app.png" width="200" />
+</p>
+<p float="left">
+  <img src="./screenshots/orgtoggle.png" width="200" />
+</p>
+
+
+
 
 
