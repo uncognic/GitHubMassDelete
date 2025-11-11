@@ -1,5 +1,5 @@
 # GitHubMassDelete
-Simple Python script to delete GitHub repositories in bulk.
+Simple Python + Qt application to delete GitHub repositories in bulk with a GUI
 
 ## Usage
 1. Install the dependencies listed in requirements.txt using `pip install -r requirements.txt` 
